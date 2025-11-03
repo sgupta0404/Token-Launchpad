@@ -1,16 +1,29 @@
-# React + Vite
+# 🚀 Solana Token Launchpad
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A decentralized **Token Launchpad built on Solana** that allows users to **create their own SPL tokens (Token-2022 standard)** directly from the browser using their Solana wallet.
 
-Currently, two official plugins are available:
+Users can connect their wallet, input token details (name, symbol, image URI, supply), and instantly **mint their own token** on the **Solana Devnet**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🧠 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 💳 **Wallet Integration** using `@solana/wallet-adapter-react`
+- ⚡ **Create and Initialize SPL Tokens** (Token-2022)
+- 🪙 **Mint Tokens** directly to your wallet
+- 🧾 **Automatic Associated Token Account Creation**
+- 🖼️ **Attach Metadata** (Name, Symbol, Image URI)
+- 🌐 **Deployed on Solana Devnet** for testing
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧩 Tech Stack
+
+| Layer | Technology |
+|-------|-------------|
+| **Frontend** | React + Vite |
+| **Blockchain** | Solana (Devnet) |
+| **Wallet Adapter** | `@solana/wallet-adapter-react`, `@solana/wallet-adapter-react-ui` |
+| **Token Standard** | SPL Token 2022 |
+| **Styling** | CSS |
+
